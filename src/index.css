@@ -250,17 +250,33 @@ color: #02131f;
       .description {
         width: 30%;
       }
+
+     
+
       .picture {
         margin-top: -420px;
       }
 
       .skill-image img{
+        margin-left:9px;
         width: 100%;
       }
+
+      .card-container {
+        align-items: center;
+       }
+      
+      .image-container {
+        width: 100%;
+      }
+
+    
+     
+    
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:	960px) {
   
 .picture {
     margin-top: 70px;
@@ -268,16 +284,17 @@ color: #02131f;
     justify-content: center;
   } 
 
- .skill-card {
-      margin:0;
-      justify-content: center;
-      flex-direction: column;
- }
 
- .skill-card .skill-name{
-    margin-top: 10px;
-    margin-left:50px;
- }
+
+  .skill-image img{
+    margin-left:9px;
+    width: 100%;
+  }
+
+.skill-card .skill-name{
+  margin-top: 10px;
+  margin-left:-16px;
+}
 
  .card-container {
   align-items: center;
@@ -354,9 +371,15 @@ color: #02131f;
       flex-direction: column;
  }
 
+ 
+ .skill-card .skill-image img {
+   margin-left: 200px;
+   width: 100px;
+}
+
  .skill-card .skill-name{
     margin-top: 10px;
-    margin-left:50px;
+    margin-left:-16px;
  }
 
  .card-container {
@@ -372,7 +395,7 @@ color: #02131f;
 
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:540px){
   .description {
     width: 100%;
   }
@@ -385,5 +408,56 @@ color: #02131f;
     width: 100%;
     margin-right: 25px
   }
+  
+  .skill-card {
+    margin:0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+.skill-card .skill-image img {
+ margin-left: 198px;
+ width: 100px;
+}
+
+.skill-card .skill-name {
+  margin-top: 10px;
+  margin-left:-16px;
+}
  
 } 
+
+
+@media screen and (max-width:539px){
+
+  .skill-card {
+    margin:0;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+.skill-card .skill-image img {
+ margin-left: 170px;
+ width: 100px;
+}
+
+.skill-card .skill-name {
+  margin-top: 10px;
+  margin-left:-20px;
+}
+
+
+}
+
+@media screen and (max-width:320px){
+
+
+  .skill-card .skill-image img {
+   margin-left:100px;
+   width: 100px;
+  }
+  
+  
+  }

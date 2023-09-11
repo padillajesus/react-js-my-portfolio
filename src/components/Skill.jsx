@@ -20,7 +20,7 @@ const Skill = () => {
                     <div className='row'>
                             <div className='d-flex skill-card'>
                                         {skills.map((skill) => (
-                                           <div className='skill-image mx-auto gx-3 mt-5'>
+                                           <div className='skill-image gx-3 mt-5'>
                                                   <img src={skill.icon} alt={skill.name}/>
                                                   <div className='skill-name d-flex justify-content-center'>{skill.name}</div>
                                            </div>
