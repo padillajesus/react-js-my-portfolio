@@ -277,11 +277,15 @@ color: #02131f;
 
 
 @media screen and (max-width:	960px) {
+  .description{
+    width: 100%;
+  }
   
 .picture {
     margin-top: 70px;
     display: flex;
     justify-content: center;
+    margin-left:50px;
   } 
 
 
@@ -355,15 +359,26 @@ color: #02131f;
   
   }
   
+  .greeting{
+    margin-left: 200px;
+  }
+  .name {
+    margin-left: 120px;
+  }
   .description {
+    margin-left:10px;
     width: 100%;
   }
-  
-  .picture {
-    margin-top: 70px;
+  .resume {
+    margin-top:30px;
     display: flex;
     justify-content: center;
-  } 
+  }
+
+  .darkmode-content {
+   margin-left:230px;
+  }
+
 
  .skill-card {
       margin:0;
@@ -396,9 +411,26 @@ color: #02131f;
 }
 
 @media screen and (max-width:540px){
+  .greeting{
+    margin-left: 200px;
+  }
+  .name {
+    margin-left: 120px;
+  }
   .description {
+    margin-left:10px;
     width: 100%;
   }
+  .resume {
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .darkmode-content {
+   margin-left:230px;
+  }
+
   .picture {
     margin-left:40px;
   }
@@ -417,13 +449,13 @@ color: #02131f;
 
 
 .skill-card .skill-image img {
- margin-left: 198px;
+ margin-left: 200px;
  width: 100px;
 }
 
 .skill-card .skill-name {
   margin-top: 10px;
-  margin-left:-16px;
+  margin-left:2px;
 }
  
 } 
@@ -431,32 +463,66 @@ color: #02131f;
 
 @media screen and (max-width:539px){
 
-  .skill-card {
-    margin:0;
-    justify-content: center;
-    flex-direction: column;
-  }
+  .greeting{
+    width: 100%;
+    margin-left:91px;
+}
+.name {
+  margin-left: 85px;
+}
+
+.description {
+  margin-left:85px;
+  width: 50%;
+}
+.resume {
+  margin-top:30px;
+  margin-right:30px;
+}
+
+.darkmode-content {
+ margin-left:240px;
+}
 
 
 .skill-card .skill-image img {
- margin-left: 170px;
+ margin-left:200px;
  width: 100px;
 }
 
-.skill-card .skill-name {
-  margin-top: 10px;
-  margin-left:-20px;
-}
-
 
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:412px){
+  .greeting{
+      width: 100%;
+      margin-left:145px;
+  }
+  .name {
+    margin-left: 60px;
+  }
+
+  .description {
+    margin-left:85px;
+    width: 75%;
+  }
+  .resume {
+    margin-top:30px;
+    margin-right:30px;
+  }
+
+  .darkmode-content {
+   margin-left:170px;
+  }
 
 
   .skill-card .skill-image img {
-   margin-left:100px;
+   margin-left:135px;
    width: 100px;
+  }
+  
+  .skill-card .skill-name {
+    margin-left: -18px;
   }
   
   
