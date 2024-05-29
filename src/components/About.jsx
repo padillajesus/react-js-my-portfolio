@@ -24,7 +24,7 @@ const About = () => {
                 
 
       
-                  <div className='row gy-3 mt-3'>
+                  <div className='row mx-1 gy-3 mt-3'>
          
                       <div className='col col-sm-12 col-lg-6 text-center'>
                   
