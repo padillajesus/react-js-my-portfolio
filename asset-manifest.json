@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-js-my-portfolio/static/css/main.0251d8aa.css",
-    "main.js": "/react-js-my-portfolio/static/js/main.38e9abe6.js",
+    "main.css": "/react-js-my-portfolio/static/css/main.a50cd84a.css",
+    "main.js": "/react-js-my-portfolio/static/js/main.c583df2b.js",
     "static/media/capstone.png": "/react-js-my-portfolio/static/media/capstone.7953d790af55fc4522cf.png",
     "static/media/studioasp.png": "/react-js-my-portfolio/static/media/studioasp.e9e1ed9ebf82ba47c117.png",
     "static/media/capstone3.png": "/react-js-my-portfolio/static/media/capstone3.f0cab42342e5952c5abc.png",
@@ -20,11 +20,11 @@
     "static/media/laravel.png": "/react-js-my-portfolio/static/media/laravel.f3ad6dc33fb0206ee8c2.png",
     "static/media/logo.png": "/react-js-my-portfolio/static/media/logo.11506282f0af1dc5acde.png",
     "index.html": "/react-js-my-portfolio/index.html",
-    "main.0251d8aa.css.map": "/react-js-my-portfolio/static/css/main.0251d8aa.css.map",
-    "main.38e9abe6.js.map": "/react-js-my-portfolio/static/js/main.38e9abe6.js.map"
+    "main.a50cd84a.css.map": "/react-js-my-portfolio/static/css/main.a50cd84a.css.map",
+    "main.c583df2b.js.map": "/react-js-my-portfolio/static/js/main.c583df2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0251d8aa.css",
-    "static/js/main.38e9abe6.js"
+    "static/css/main.a50cd84a.css",
+    "static/js/main.c583df2b.js"
   ]
 }
