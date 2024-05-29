@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/react-js-my-portfolio/static/css/main.4bd608fb.css",
-    "main.js": "/react-js-my-portfolio/static/js/main.cbab4e96.js",
+    "main.css": "/react-js-my-portfolio/static/css/main.0251d8aa.css",
+    "main.js": "/react-js-my-portfolio/static/js/main.38e9abe6.js",
     "static/media/capstone.png": "/react-js-my-portfolio/static/media/capstone.7953d790af55fc4522cf.png",
     "static/media/studioasp.png": "/react-js-my-portfolio/static/media/studioasp.e9e1ed9ebf82ba47c117.png",
+    "static/media/capstone3.png": "/react-js-my-portfolio/static/media/capstone3.f0cab42342e5952c5abc.png",
     "static/media/me.jpg": "/react-js-my-portfolio/static/media/me.d2b3d7dbdcfd11bb26c4.jpg",
+    "static/media/studiovb3.png": "/react-js-my-portfolio/static/media/studiovb3.cdcfd29c9ff79fe47259.png",
     "static/media/studiovb.png": "/react-js-my-portfolio/static/media/studiovb.d4e929b7623c684a6f23.png",
+    "static/media/studiovb1.png": "/react-js-my-portfolio/static/media/studiovb1.413d99a6d4702a7939a8.png",
+    "static/media/asp3.png": "/react-js-my-portfolio/static/media/asp3.35b68e3e53950456acd3.png",
+    "static/media/studiovb2.png": "/react-js-my-portfolio/static/media/studiovb2.28f685c195017837c741.png",
     "static/media/mysql.png": "/react-js-my-portfolio/static/media/mysql.f2af03679428a2cecb04.png",
+    "static/media/capstone2.png": "/react-js-my-portfolio/static/media/capstone2.e5d8321a5cbf94739516.png",
+    "static/media/asp1.png": "/react-js-my-portfolio/static/media/asp1.993cf9042cc4d5f444c9.png",
+    "static/media/capstone1.png": "/react-js-my-portfolio/static/media/capstone1.9650164c6df5725ae061.png",
+    "static/media/asp2.png": "/react-js-my-portfolio/static/media/asp2.f22648ea4fc6b6518881.png",
     "static/media/bootstrap.png": "/react-js-my-portfolio/static/media/bootstrap.d6dfcf6f691f6346f70b.png",
     "static/media/laravel.png": "/react-js-my-portfolio/static/media/laravel.f3ad6dc33fb0206ee8c2.png",
     "static/media/logo.png": "/react-js-my-portfolio/static/media/logo.11506282f0af1dc5acde.png",
     "index.html": "/react-js-my-portfolio/index.html",
-    "main.4bd608fb.css.map": "/react-js-my-portfolio/static/css/main.4bd608fb.css.map",
-    "main.cbab4e96.js.map": "/react-js-my-portfolio/static/js/main.cbab4e96.js.map"
+    "main.0251d8aa.css.map": "/react-js-my-portfolio/static/css/main.0251d8aa.css.map",
+    "main.38e9abe6.js.map": "/react-js-my-portfolio/static/js/main.38e9abe6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd608fb.css",
-    "static/js/main.cbab4e96.js"
+    "static/css/main.0251d8aa.css",
+    "static/js/main.38e9abe6.js"
   ]
 }

@@ -1,4 +1,10 @@
 /**
+      * VenoBox 2.1.8
+      * Copyright 2013-2024 Nicola Franchini
+      * @license: https://github.com/nicolafranchini/VenoBox/blob/master/LICENSE
+      */
+
+/**
  * @license React
  * react-dom.production.min.js
  *
