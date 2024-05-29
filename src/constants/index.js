@@ -7,16 +7,16 @@ reactjs,
 laravel, 
 mysql,
 git,
-studiovb,
-studioasp,
-capstone,
+// studiovb,
+// studioasp,
+// capstone,
 } from '../assets'
 
 
 const links = [
         {
             id:"home",
-            title:"home"
+            title:"Home"
         },
 
         {
@@ -77,37 +77,37 @@ const skills = [
         },
       ];
 
-const project = [
-  {
+// const project = [
+//   {
    
-        title:'Web-Based Management Information System of Brgy Sta. Lucia',
-        image:capstone,
-        description:'Our Capstone Project in order to fulfill a requirement in College.',
-        role:'Back-end Developer',
-        languageused:'HTML5,CSS3,Javascript,PHP (Laravel Framework),Bootstrap 5',
+//         title:'Web-Based Management Information System of Brgy Sta. Lucia',
+//         image:capstone,
+//         description:'Our Capstone Project in order to fulfill a requirement in College.',
+//         role:'Front & Back-end Developer',
+//         languageused:'HTML5,CSS3,Javascript,PHP (Laravel Framework),Bootstrap 5',
        
-  },
-  {
+//   },
+//   {
     
-        title:'Studio Reservation in VB.net',
-        image:studiovb,
-        description:'A Desktop Application that is developed in my subject.',
-        role:'Front & Back-end Developer',
-        languageused:'Visual Basic.net, MariaDB',
-  },
-  {
+//         title:'Studio Reservation in VB.net',
+//         image:studiovb,
+//         description:'A Desktop Application that is developed in my subject.',
+//         role:'Front & Back-end Developer',
+//         languageused:'Visual Basic.net, MariaDB',
+//   },
+//   {
     
-        title:'Studio Reservation in ASP.net',
-        image:studioasp,
-        description:'My Personal Project that used as a practice in web development.',
-        role:'Front & Back-end Developer',
-        languageused:'HTML5,CSS3,Javascript,MSSQL',
-},
+//         title:'Studio Reservation in ASP.net',
+//         image:studioasp,
+//         description:'My Personal Project that used as a practice in web development.',
+//         role:'Front & Back-end Developer',
+//         languageused:'HTML5,CSS3,Javascript,MSSQL,C#',
+//   },
 
-]
+// ]
       
 export {
   links,
   skills,
-  project,
+  // project,
 } ;

@@ -24,23 +24,24 @@ return (
             <div className='logo'>
                 {/* <img src={logo} alt='logo'/> */}
             </div>
-            </Link>
+            </Link> 
             
                 <div className='toggle-icon' onClick={handletoggle}>
                     {toggle?<Icon icon={x} size={45}/>:<Icon icon={menu} size={45}/>}
                 </div>
                 <div className='menu'>
-                {
-                        links.map((item) => (   
-                            <div className='list-item'>
+                {links.map((item) => (   
+                            <div className='list-item' key={item.id}>
                                 <ul>
-                                    <li>
+                                
+                                        <li key={item.id}>
                                         <a href={`#${item.id}`}>{item.title}</a>
-                                    </li>
+                                        </li>
                                 </ul>
                             </div>
-                        ))
-                    }
+                ))} 
+              
+                 
                 </div>
     </div>
     </nav>

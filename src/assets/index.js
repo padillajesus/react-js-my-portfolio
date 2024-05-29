@@ -9,10 +9,9 @@ import git from './skills/git.png'
 
 import logo from './images/logo.png'
 import me from './images/me.jpg'
-import studiovb from './images/studiovb.png'
-import studioasp from './images/studioasp.png'
-import capstone from './images/capstone.png'
-
+// import studiovb from './images/studiovb.png'
+// import studioasp from './images/studioasp.png'
+// import capstone from './images/capstone.png'
 export {
-    html,css,javascript,bootstrap,reactjs,laravel,mysql,git,logo,me,studiovb,studioasp,capstone,
+    html,css,javascript,bootstrap,reactjs,laravel,mysql,git,logo,me,
 }

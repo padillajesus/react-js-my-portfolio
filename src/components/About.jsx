@@ -5,7 +5,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id="about">
        
         <div className='container'>
                <div className='about-header'>
@@ -15,8 +15,8 @@ const About = () => {
               
               
                 <h5 className='d-flex justify-content-center text-uppercase mb-3'>Career Objective</h5>
-                <h6 className='text-center mb-5'> A BSIT fresh graduate seeking to acquire a job in a productive organization to help me gain real-world
-                experience and also enhance my skills.</h6>
+                <h6 className='text-center mb-5'> A College Graduate with the course of BSIT seeking an open IT position in a productive organization to help me gain real-world experience and also enhance my skills more, and I’m very willing to learn more, depending on what is needed.
+                </h6>
              
             
                

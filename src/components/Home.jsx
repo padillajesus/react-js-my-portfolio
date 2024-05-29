@@ -1,14 +1,15 @@
 import React , {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
-import { faToggleOff,faToggleOn } from '@fortawesome/free-solid-svg-icons'
+// import { faToggleOff,faToggleOn } from '@fortawesome/free-solid-svg-icons'
+import { faSun,faMoon} from '@fortawesome/free-solid-svg-icons'
 
 import {me} from '../assets'
 
 const Home = () => {
 
-     const openResume = () => {
-          window.open('./MyResume.pdf', '_blank')
+     const Resume = () => {
+          window.open(`${process.env.PUBLIC_URL}/padillaresume.pdf`, '_blank');
      }
 
           const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -39,17 +40,17 @@ const Home = () => {
                     Jesus Padilla
                </div>
                <div className='description'>
-                    A fresh graduate of Bachelor of Science in Information Technology 
-                   <br></br> at Quezon City University.
+                    Graduated of Bachelor of Science - BS in Information Technology 
+                   <br></br> at Quezon City University, Aspiring to become successful in the IT industry.
                </div>
                <div className='resume'>
-                    <button onClick={openResume}>View CV<FontAwesomeIcon icon={faFilePdf} style={{color: "#ffffff",marginLeft:"10px",}} /></button>
+                    <button onClick={Resume}>View CV<FontAwesomeIcon icon={faFilePdf} style={{color: "#ffffff",marginLeft:"10px",}} /></button>
                </div>
 
                <div className='darkmode-content'>
                     <label>
                     <input type="checkbox" onChange={toggleTheme} checked={isDarkTheme}/>
-                    <FontAwesomeIcon icon={isDarkTheme ? faToggleOn : faToggleOff} style={{ height: '50px' }}/>
+                    <FontAwesomeIcon icon={isDarkTheme ? faMoon : faSun} style={{ height: '40px',color: isDarkTheme ? '#74C0FC' : 'FFD43B'}} />
                     </label>
                 </div>
                     
